@@ -1,6 +1,11 @@
 package com.stackroute.practice4;
 
-public class transposeString {
+//4. Write a program to transpose the given string.
+//        Input String : a quick brown fox jumps over the lazy dog
+//        Output String: a kciuq nworb xof spmuj revo eht yzal god
+
+public class TransposeString {
+    //method to Transpose a String
     static String transpose(String userInput){
         String[] userInputArray = userInput.split(" ");
         String result = "";

@@ -4,7 +4,12 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class wordOccurences {
+//6. Write a program to find out the multiple occurrences of the given word in a string using Matcher
+//        methods.
+
+public class WordOccurences {
+
+    //method to count word occurences and find their start and end index
     static void countOccurences(String userInput, String toMatch){
         Pattern pattern = Pattern.compile(toMatch);
         Matcher matcher = pattern.matcher(userInput);

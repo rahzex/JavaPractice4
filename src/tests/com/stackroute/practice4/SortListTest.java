@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class sortListTest {
+public class SortListTest {
 
     @Test
     public void sortString() {
@@ -22,6 +22,6 @@ public class sortListTest {
         output.add("love");output.add("reality");output.add("than");
         output.add("when");output.add("you");output.add("you");output.add("you're");
         output.add("your");
-        assertEquals(output,sortList.sortString(input));
+        assertEquals(output, SortList.sortString(input));
     }
 }
